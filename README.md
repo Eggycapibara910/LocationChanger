@@ -1,2 +1,7 @@
 # LocationChanger
-This C++ code copies the exe to a given(default) location or you can add a target path and the it will adjust the UserName automatically
+This C++ code copies the exe to a given(default) location or you can add a target path and the it will adjust the UserName automatically.
+
+
+Because of confilcts with LPCSTR you should disable Unicode and enable MultiByte in the VS Project settings.
+
+Windows Defender doesnt detect it as malware, but dont abuse of this.
